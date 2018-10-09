@@ -1,0 +1,106 @@
+public class main {
+
+	public static void main(String[] args) {
+		kotak kotakHitam = new kotak();
+		
+		kotakHitam.setPanjang(20);
+		kotakHitam.setLebar(10);
+		
+		kotakHitam.hitungLuas();
+		kotakHitam.hitungKeliling();
+	
+		System.out.println("Panjang : " + kotakHitam.getPanjang());
+		System.out.println("Lebar : " + kotakHitam.getLebar());
+		System.out.println("LuasKotak : " + kotakHitam.getLuas());
+		System.out.println("KelilingKotak " + kotakHitam.getKeliling());
+		System.out.println("___________________________________________");
+				
+		{
+			//Hasil Mahasiswa
+			mahasiswa mhs1 = new mahasiswa();
+			mhs1.setNama("M.Farham");
+			mhs1.setNim("D0217369");
+			mhs1.setAlamat("majene");
+			mhs1.setGolonganDarah("A");
+			mhs1.setStatus("Mahasiswa");
+			mhs1.setTinggiBadan(150);
+			mhs1.setBeratBadan(40);
+			
+			System.out.println("Nama : " + mhs1.getNama());
+			System.out.println("Nim : " + mhs1.getNim());
+			System.out.println("Alamat : " + mhs1.getAlamat());
+			System.out.println("GolonganDarah : " + mhs1.getGolonganDarah());
+			System.out.println("Status : " + mhs1.getStatus());
+			System.out.println("TinggiBadan : " + mhs1.getTinggiBadan());
+			System.out.println("BeratBadan : " + mhs1.getBaratBadan());
+			System.out.println("---------------------------------------------");
+
+		}
+		
+		
+		//Hasil node
+		
+		node nodeku = new node();
+		nodeku.setLabel("M.farham");
+		nodeku.setValue(19);
+			
+		System.out.println( nodeku.getLabel());
+		System.out.println("Tahun : " + nodeku.getValue());
+		System.out.println("---------------------------------------------");
+		
+		//stack
+		
+		Stack Stack1 = new Stack();
+		System.out.println("________________");
+		Stack1.Value[0] = "mf";
+		Stack1.Value[1] = "mf";
+		Stack1.Value[2] = "mf";
+		Stack1.Value[3] = "mf";
+		Stack1.Value[4] = "mf";
+		Stack1.Value[5] = "mf";
+		Stack1.Value[6] = "mf";
+		Stack1.Value[7] = "mf";
+		Stack1.Value[8] = "mf";
+		Stack1.Value[9] = "mf";
+		Stack1.Value[10] = "mf";
+		Stack1.Value[11] = "mf";
+		Stack1.Value[12] = "mf";
+		Stack1.Value[13] = "mf";
+		Stack1.Value[14] = "mf";
+		Stack1.Value[15] = "mf";
+		Stack1.Value[16] = "mf";
+		Stack1.Value[17] = "mf";
+		Stack1.Value[18] = "mf";
+		Stack1.Value[19] = "mf";
+		Stack1.Value[20] = "mf";
+		Stack1.Value[21] = "mf";
+		Stack1.Value[22] = "mf";
+		Stack1.Value[23] = "mf";
+		Stack1.Value[24] = "mf";
+		Stack1.Value[25] = "mf";
+		Stack1.Value[26] = "mf";
+		Stack1.Value[27] = "mf";
+		Stack1.Value[28] = "mf";
+		Stack1.Value[29] = "mf";
+		Stack1.Value[30] = "mf";
+		Stack1.Value[31] = "mf";
+		Stack1.Value[32] = "mf";
+		Stack1.Value[33] = "mf";
+		Stack1.Value[34] = "mf";
+		Stack1.Value[35] = "mf";
+		Stack1.Value[36] = "mf";
+		Stack1.Value[37] = "mf";
+		Stack1.Value[38] = "mf";
+		Stack1.Value[39] = "mf";
+		Stack1.Value[40] = "mf";
+		Stack1.Value[41] = "mf";
+		Stack1.Value[42] = "mf";
+	
+		Stack1.setValueAt(7, "M.Farham");
+		for(int i=0;i<Stack1.Value.length;i++)
+		{System.out.println(Stack1.Value[i]);};
+	}
+		
+	
+}
+
